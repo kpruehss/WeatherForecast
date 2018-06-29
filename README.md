@@ -8,7 +8,7 @@ in a single session.
 
 ## App Overview
 
-This training app aims to implement redux with AJAX calls and 3rd party
+This training app aims to implement redux with AJAX requests and 3rd party
 components. Calls are made to `openweathermap.org` API using the `axios` library.
 The received promise object is passed through `react-promise` middleware and
 passed onto reducers for storage in `redux` once resolved.
